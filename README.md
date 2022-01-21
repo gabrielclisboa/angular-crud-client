@@ -16,8 +16,10 @@ ng serve
 
 Open [http://localhost:4200](http://localhost:4200) in your browser to see the page.
 
-Execute the "db_cliente_script.sql" in a server MySql to build the BD.
-For execute the SpringBoot application, use the JDK 11. 
+# SpringBoot RestFul API/ Data Base MySql
+
+The API made in spring boot , which integrates the front-end, is located in this [repository](https://github.com/gabrielclisboa/springboot-api-crud-client). 
+For the correct functioning of the API. It is necessary to create a MySql database from the file "db_cliente_script.sql", located in the root of this project.
 
 ## Learn More
 
