@@ -3,6 +3,7 @@ This is a simple C.R.U.D with pagination using [Angular](https://angular.io/) as
 First, install the dependencies on Angular project folder:
 
 ```bash
+npm install
 ng add @angular/material
 npm install --save ngx-mask
 npm install ng-lazyload-image
