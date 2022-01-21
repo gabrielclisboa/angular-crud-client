@@ -1,27 +1,30 @@
-# Crud
+This is a simple C.R.U.D with pagination using [Angular](https://angular.io/) as front-end, [SpringBoot](https://spring.io/) RestFul API as back-end and [MySql](https://www.mysql.com/) as Data Base.
+# Getting Started
+First, install the dependencies on Angular project folder:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.4.
+```bash
+ng add @angular/material
+npm install --save ngx-mask
+npm install ng-lazyload-image
+```
 
-## Development server
+Run the development server:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```bash
+ng serve
+```
 
-## Code scaffolding
+Open [http://localhost:4200](http://localhost:4200) in your browser to see the page.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Execute the "db_cliente_script.sql" in a server MySql to build the BD.
+For execute the SpringBoot application, use the JDK 11. 
 
-## Build
+## Learn More
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To learn more about the libraries used in building the front-end, take a look at the following resources:
 
-## Running unit tests
+-[Angular Material Documentation](https://material.angular.io/guide/getting-started) - Learn about the components used. 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+-[Mask](https://www.npmjs.com/package/ngx-mask) -  mask used some inputs and outputs
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+-[Lazy Load Image](https://www.npmjs.com/package/ng-lazyload-image) - load images from a endpoint
