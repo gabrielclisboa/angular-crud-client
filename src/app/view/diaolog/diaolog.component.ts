@@ -48,7 +48,7 @@ export class DiaologComponent implements OnInit {
 
   }
 
-  addDescricaoRejeito() {
+  addEmail() {
     if (this.tabelaEmail.valid) {
       const rowDataTable = this.tabelaEmail.value;
       this.dataSource.data.push(rowDataTable);
@@ -56,7 +56,7 @@ export class DiaologComponent implements OnInit {
       this.tabelaEmail.reset();
     }
   }
-  deleteClickTabelaEmbalagem(event: any) {
+  deleteEmail(event: any) {
     this.dataSource.data = this.dataSource.data.filter(d => d !== event);
   }
 
